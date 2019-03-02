@@ -1,3 +1,31 @@
 body {
-  font-family: monospace;
+    font-family: Microsoft JhengHei;
+}
+
+.bgnew {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right bottom, #0e56c2, #008de4, #00b7cc, #00d993, #c4ef66); //background-repeat: contain;
+    overflow: auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+img {
+    margin-top: 2vh;
+}
+
+img#hd800s :hover:after {
+    border: 1px solid #fc0;
+    padding: 3px 6px;
+    background: #fffea1;
+    content: attr(data-title);
+    position: absolute;
+    right: -40px;
+    top: -26px;
 }
